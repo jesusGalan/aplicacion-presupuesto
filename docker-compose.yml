@@ -1,0 +1,6 @@
+version: "2.4"
+services:
+  react:
+    build: .
+    ports:
+      - "8080:3000"
